@@ -1,6 +1,6 @@
-import Vue from 'vue';
+import Vue from 'vue'; // Ensure Vue is imported first
 import Router from 'vue-router';
-import App from '@/App.vue'; // Make sure the path is correct
+import App from '@/App.vue'; // Adjust path if necessary
 
 Vue.use(Router);
 
