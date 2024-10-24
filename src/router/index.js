@@ -1,17 +1,17 @@
-import Vue from 'vue'; // Ensure Vue is imported first
+import Vue from 'vue'; 
 import Router from 'vue-router';
-import App from '@/App.vue'; // Adjust path if necessary
+import App from '@/App.vue';
 
 Vue.use(Router);
 
 const router = new Router({
-  mode: 'history', // Use 'hash' mode if you have issues with history mode
+  mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
       path: '/',
       name: 'Home',
-      component: App, // Use App.vue directly
+      component: App, 
     },
   ],
 });
